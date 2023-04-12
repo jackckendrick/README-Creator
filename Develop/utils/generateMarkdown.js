@@ -70,7 +70,23 @@ This project is licensed under the [${license} license](${renderLicenseLink(lice
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  ## Title
+  ${data.title}
+  ${data.renderLicenseBadge};
+  ## Description
+  ${data.description}
+  ## Instalation
+  ${data.instalation}
+  ## Usage
+  ${data.usage}
+  ## Credits
+  ${data.credits}
+  ## Contact Information
+  ${data.username};
+  ${data.email};
+  ## License
+  ${data.license}
 
 `;
 }

@@ -7,43 +7,43 @@ const inquirer = require("inquirer");
 const questions = [
     {
        type: "input",
-       name: "Title",
+       name: "title",
        message: "What is the name of your project?",
        validate: validateInput,
     },
     {
         type: "input",
-        name: "Installation",
+        name: "installation",
         message: "What are the required steps to install the project?",
         validate: validateInput,
      },
      {
         type: "input",
-        name: "Usage",
+        name: "usage",
         message: "How should the project be used? Please add a screenshot of project.",
         validate: validateInput,
      },
      {
         type: "input",
-        name: "Credits",
+        name: "credits",
         message: "Please list any third-party resources or collaborators that contributed to the project",
         validate: validateInput,
      },
      {
         type: "input",
-        name: "License",
+        name: "license",
         message: "What license did you use for your project?",
         validate: validateInput,
      },
      {
         type: "input",
-        name: "Email",
+        name: "email",
         message: "What is a good email that the project creator can be reached?",
         validate: validateInput,
      },
      {
         type: "input",
-        name: "Username",
+        name: "username",
         message: "What is the project creator's GitHub username?",
         validate: validateInput,
      }
