@@ -42,12 +42,6 @@ const questions = [
       message: "Would you like to add a screenshot?",
      },
      {
-      type: "input",
-      name: "picture",
-      message: "What is a good picture of your project?",
-      when: (data) => data.confirm_picture,
-     },
-     {
         type: "input",
         name: "credits",
         message: "Please list any third-party resources or collaborators that contributed to the project",
