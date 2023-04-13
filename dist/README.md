@@ -1,19 +1,19 @@
 
   ## Title
-  f
+  README-Creator
 
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  f
+  The README-Creator was created to generate a formatted README file for the user's project.
   ## Installation
-  f
+  The user must have the latest version of inquirer installed in order to run the application
   ## Usage
-  f
+  The project should be used in the command-line in order to create and format the README.md file for the user's project.
   ## Credits
-  f
+  There are currently no third-party collaborators. However we are open to contributiions.
   ## Contact Information
-  f;
-  f;
+  jackckendrick;
+  jackckendrick@utexas.edu;
   ## License
-  gpl 3.0
+  mit
 
