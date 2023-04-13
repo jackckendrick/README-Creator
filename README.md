@@ -1,9 +1,7 @@
 # README-Creator
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-lYWzq7m02w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-
 This is a command-line application built using Node.js that generates high-quality, professional README.md files for coding projects. It prompts the user for information about their application repository, such as the project title, description, installation instructions, usage information, contribution guidelines, test instructions, and contact details.
+![Screenshot of My Application](./screen-reccording/Screen%20Shot%202023-04-13%20at%205.13.35%20PM.png)
 
 ## Acceptance Criteria
 The application should accept user input from the command line. When prompted for information about the application repository, a high-quality, professional README.md should be generated with the title of the project and sections for Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions. When the project title is entered, it should be displayed as the title of the README. When information is entered for the Description, Installation, Usage, Contributing, and Tests sections, it should be added to the corresponding sections of the README. When a license is chosen, a badge for that license should be added to the top of the README and a notice should be added to the License section to explain which license the application is covered under. When the user enters their GitHub username, it should be added to the Questions section with a link to their GitHub profile. When the user enters their email address, it should be added to the Questions section with instructions on how to reach them with additional questions. Clicking on the links in the Table of Contents should take the user to the corresponding section of the README.
