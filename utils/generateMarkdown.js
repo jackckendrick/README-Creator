@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
   return "";
 };
 
-const licenseName = license.caseSetting();
+const licenseName = license;
 
 switch (licenseName) {
   case "gpl 3.0":
@@ -73,11 +73,12 @@ function generateMarkdown(data) {
   return `
   ## Title
   ${data.title}
-  ${data.renderLicenseBadge};
+
+  ${renderLicenseBadge(data.license)}
   ## Description
   ${data.description}
-  ## Instalation
-  ${data.instalation}
+  ## Installation
+  ${data.installation}
   ## Usage
   ${data.usage}
   ## Credits
